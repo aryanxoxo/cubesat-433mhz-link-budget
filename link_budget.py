@@ -1,8 +1,8 @@
 """433 MHz CubeSat downlink link-budget model.
 
-The constants below are example reconstruction values. Replace them with
-measured ALEASAT / UBC ORBIT radio, antenna, and ground-station values when
-available.
+The constants below are public placeholder values used to demonstrate the
+calculation workflow. Keep station-specific, flight-specific, or
+hardware-sensitive values in a private/local analysis copy.
 """
 
 from __future__ import annotations
@@ -101,4 +101,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
