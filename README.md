@@ -1,4 +1,6 @@
-# UBC ORBIT ALEASAT 433 MHz CubeSat Radio Link
+﻿# UBC ORBIT ALEASAT 433 MHz CubeSat Radio Link
+
+> Public archive note: this repository is a portfolio/demo-safe version prepared from private working repositories/materials; sensitive details, credentials, raw logs, and proprietary context are intentionally omitted.
 
 Link-budget and BER modeling package for a 433 MHz CubeSat UHF downlink study. The files document the engineering method: free-space path loss, received power, receiver noise floor, link margin, and BER sensitivity versus Eb/N0.
 
