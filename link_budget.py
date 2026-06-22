@@ -1,8 +1,7 @@
 """433 MHz CubeSat downlink link-budget model.
 
-The constants below are public placeholder values used to demonstrate the
-calculation workflow. Keep station-specific, flight-specific, or
-hardware-sensitive values in a private/local analysis copy.
+The constants below are reference values used to demonstrate the calculation
+workflow. Substitute measured hardware and station values during validation.
 """
 
 from __future__ import annotations

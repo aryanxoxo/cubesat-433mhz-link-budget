@@ -1,6 +1,6 @@
 # Test Plan: Filling In the 433 MHz CubeSat Link Project
 
-Use this checklist to validate the model in a private/local engineering copy. The public scripts use placeholder assumptions so sensitive radio, antenna, station, or mission-specific values are not exposed.
+Use this checklist to validate the model with measured hardware values. The included scripts start from reference assumptions so the workflow can be reviewed before substituting project-specific radio, antenna, station, or mission parameters.
 
 ## 1. TX Output Power
 
@@ -137,7 +137,7 @@ Use:
 - compare measured received power against the model at short range
 - explain differences due to multipath, polarization, and antenna mismatch
 
-## Strong Evidence To Keep Or Publish Carefully
+## Strong Evidence To Capture
 
 - photo of radio boards and test setup
 - screenshot of spectrum analyzer at 433 MHz
@@ -147,4 +147,4 @@ Use:
 - final link budget table with real values
 - short paragraph explaining whether link margin was enough for low-elevation passes
 
-Before publishing, remove serial numbers, exact unreleased hardware settings, precise mission constraints, and any values that should remain internal.
+For public-facing documentation, summarize the method and results while keeping serial numbers, unreleased hardware settings, and mission-specific constraints out of the repo.

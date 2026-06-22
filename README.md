@@ -1,8 +1,8 @@
 # UBC ORBIT ALEASAT 433 MHz CubeSat Radio Link
 
-Public link-budget and BER modeling package for a 433 MHz CubeSat UHF downlink study. The files here document the engineering method: free-space path loss, received power, receiver noise floor, link margin, and BER sensitivity versus Eb/N0.
+Link-budget and BER modeling package for a 433 MHz CubeSat UHF downlink study. The files document the engineering method: free-space path loss, received power, receiver noise floor, link margin, and BER sensitivity versus Eb/N0.
 
-The numeric values in this public repository are placeholder assumptions for demonstration. They are intentionally not station-specific, flight-specific, or hardware-sensitive values. Keep private radio settings, measured hardware performance, detailed antenna data, and any mission-sensitive parameters in a local/private analysis copy.
+The numeric values are reference assumptions for a reviewable public model. Project-specific radio settings, measured hardware performance, detailed antenna data, and mission parameters belong in a local engineering analysis copy.
 
 ## Contents
 
@@ -64,9 +64,9 @@ Approximate Eb/N0:
 Eb/N0(dB) = C/N(dB) - 10log10(data_rate / bandwidth)
 ```
 
-## Public Placeholder Assumptions
+## Reference Assumptions
 
-These values are intentionally generic and editable:
+These values are generic and editable:
 
 | Parameter | Example |
 |---|---:|
@@ -81,9 +81,9 @@ These values are intentionally generic and editable:
 | Receiver sensitivity reference | -110 dBm |
 | LEO slant range sweep | 500 to 2500 km |
 
-## Private Values To Keep Local
+## Values To Substitute During Hardware Validation
 
-For internal engineering work, use a private/local copy to substitute:
+For hardware validation, substitute measured or project-specific values for:
 
 - Measured TX output power at the antenna port.
 - Measured or simulated antenna gain pattern.
@@ -93,8 +93,6 @@ For internal engineering work, use a private/local copy to substitute:
 - Measured frequency error / drift.
 - Real modulation settings, such as 2-FSK, GFSK, or MSK.
 - Real occupied bandwidth and data rate.
-
-Do not publish values that expose proprietary hardware behavior, mission constraints, or unreleased station performance.
 
 ## Portfolio Description
 
